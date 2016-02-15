@@ -1,12 +1,14 @@
 package com.rtayal.traffickingpolice;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -28,6 +30,8 @@ public class Fragment1 extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    private Button reportButton;
 
     public Fragment1() {
         // Required empty public constructor
@@ -58,6 +62,15 @@ public class Fragment1 extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+        reportButton = (Button)getActivity().findViewById(R.id.reportButton);
+        reportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), ReportActivity.class);
+                getActivity().startActivity(i);
+            }
+        });
     }
 
     @Override
