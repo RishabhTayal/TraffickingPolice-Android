@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_efebfd2dfe82b35adb58535dc5a88698214dd5dc.jar" />
-    </item>
-    <item
         jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
         <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_931198a3b892de1abebefca7dc316895b3786da4.jar" />
-    </item>
-    <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.8_e87c74666abd944b0c555c191f92581cc7f3067f.jar" />
-    </item>
-    <item
-        jar="/Users/rtayal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_e8f0f85c948afe239d641470e266a196fee1949f.jar" />
-    </item>
-    <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.10_917b34f49f7b3c01ac785804e6e50dd3ae63c42b.jar" />
     </item>
     <item
         jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
@@ -44,6 +16,27 @@
         <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.6_299a91da1f5f1e841aa76e6ed2e9f1fb866f96cf.jar" />
     </item>
     <item
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.10_917b34f49f7b3c01ac785804e6e50dd3ae63c42b.jar" />
+    </item>
+    <item
+        jar="/Users/rtayal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_e8f0f85c948afe239d641470e266a196fee1949f.jar" />
+    </item>
+    <item
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_efebfd2dfe82b35adb58535dc5a88698214dd5dc.jar" />
+    </item>
+    <item
         jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -51,18 +44,18 @@
         <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_e89c8e304b90eeeb07fb4490d8830a3dab3a6179.jar" />
     </item>
     <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_1dea268e583accfc916139c2b7dcce0439a18cdd.jar" />
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.8_e87c74666abd944b0c555c191f92581cc7f3067f.jar" />
     </item>
     <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.4_b4736c6e81fbc572a1357b08e75646538f1b0c72.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_3537b7f7f44fa3747f21b6c6d7b036340bbc3cf4.jar" />
     </item>
     <item
         jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
@@ -72,11 +65,18 @@
         <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.5.5_8a3c228c0faf842b4bdfc827b30ab64d9972d7f2.jar" />
     </item>
     <item
-        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_3537b7f7f44fa3747f21b6c6d7b036340bbc3cf4.jar" />
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.4_b4736c6e81fbc572a1357b08e75646538f1b0c72.jar" />
+    </item>
+    <item
+        jar="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/rtayal/Desktop/Personal/TraffickingPolice-Android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_1dea268e583accfc916139c2b7dcce0439a18cdd.jar" />
     </item>
 
 </items>
