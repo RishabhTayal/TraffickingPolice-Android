@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 return Fragment1.newInstance("", "");
             }
             if (position == 1) {
-                return ItemFragment.newInstance(2);
+                return ItemFragment.newInstance(1);
             }
             return PlaceholderFragment.newInstance(position + 1);
         }
