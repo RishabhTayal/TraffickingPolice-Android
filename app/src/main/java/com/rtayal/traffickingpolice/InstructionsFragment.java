@@ -69,9 +69,8 @@ public class InstructionsFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_instructions, container, false);
         webView = (WebView)v.findViewById(R.id.instruWebView);
-        webView.loadUrl("file:///android_asset/Instructions.html");
-        webView.setHorizontalScrollBarEnabled(true);
         webView.setVerticalScrollBarEnabled(true);
+        webView.loadUrl("file:///android_asset/Instructions.html");
         return v;
     }
 
