@@ -15,14 +15,15 @@ import retrofit2.http.Query;
  */
 public class ServiceCaller {
 
+    private static String BASE_URL = "http://10.0.2.2:2403";
 
-    public static void getReportedList(Callback<Object> callback) {
+    public static void getReportedList(Callback<List<Object>> callback) {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.stackexchange.com")
+                .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         API api = retrofit.create(API.class);
-        Call<Object> call = api.loadQuestions("android");
+        Call<List<Object>> call = api.getReports();
         call.enqueue(callback);
     }
 }

@@ -11,8 +11,8 @@ import retrofit2.http.Query;
  */
 
 public interface API {
-    @GET("/2.2/questions?order=desc&sort=creation&site=stackoverflow")
-    Call<Object> loadQuestions(@Query("tagged") String tags);
+    @GET("/reports")
+    Call<List<Object>> getReports();
 }
 
 

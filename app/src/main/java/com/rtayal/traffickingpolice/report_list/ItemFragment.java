@@ -61,14 +61,14 @@ public class ItemFragment extends Fragment {
             mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
         }
 
-        ServiceCaller.getReportedList(new Callback<Object>() {
+        ServiceCaller.getReportedList(new Callback<List<Object>>() {
             @Override
-            public void onResponse(Call<Object> call, Response<Object> response) {
+            public void onResponse(Call<List<Object>> call, Response<List<Object>> response) {
                 Log.d("List", response.body().toString());
             }
 
             @Override
-            public void onFailure(Call<Object> call, Throwable t) {
+            public void onFailure(Call<List<Object>> call, Throwable t) {
                 Log.d("Failed", t.getLocalizedMessage());
             }
         });
