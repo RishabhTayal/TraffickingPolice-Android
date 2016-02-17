@@ -1,4 +1,4 @@
-package com.rtayal.traffickingpolice;
+package com.rtayal.traffickingpolice.utilities;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class ServiceCaller {
                 .baseUrl("https://api.stackexchange.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        StackOverflowAPI api = retrofit.create(StackOverflowAPI.class);
+        API api = retrofit.create(API.class);
         Call<Object> call = api.loadQuestions("android");
         call.enqueue(callback);
     }

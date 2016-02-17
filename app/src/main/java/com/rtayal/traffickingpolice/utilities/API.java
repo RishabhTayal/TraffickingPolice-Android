@@ -1,4 +1,4 @@
-package com.rtayal.traffickingpolice;
+package com.rtayal.traffickingpolice.utilities;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import retrofit2.http.Query;
  * Created by rtayal on 2/17/16.
  */
 
-public interface StackOverflowAPI {
+public interface API {
     @GET("/2.2/questions?order=desc&sort=creation&site=stackoverflow")
     Call<Object> loadQuestions(@Query("tagged") String tags);
 }

@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.rtayal.traffickingpolice.R;
-import com.rtayal.traffickingpolice.ServiceCaller;
+import com.rtayal.traffickingpolice.utilities.ServiceCaller;
 import com.rtayal.traffickingpolice.dummy.DummyContent;
 import com.rtayal.traffickingpolice.dummy.DummyContent.DummyItem;
 
