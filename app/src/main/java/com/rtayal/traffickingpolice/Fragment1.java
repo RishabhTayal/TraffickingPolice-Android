@@ -63,14 +63,14 @@ public class Fragment1 extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-        reportButton = (Button)getActivity().findViewById(R.id.reportButton);
-        reportButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity(), ReportActivity.class);
-                getActivity().startActivity(i);
-            }
-        });
+//        reportButton = (Button)getActivity().findViewById(R.id.reportButton);
+//        reportButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(getActivity(), ReportActivity.class);
+//                getActivity().startActivity(i);
+//            }
+//        });
     }
 
     @Override
