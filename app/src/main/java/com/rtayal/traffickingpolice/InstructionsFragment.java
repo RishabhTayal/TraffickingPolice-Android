@@ -70,6 +70,8 @@ public class InstructionsFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_instructions, container, false);
         webView = (WebView)v.findViewById(R.id.instruWebView);
         webView.loadUrl("file:///android_asset/Instructions.html");
+        webView.setHorizontalScrollBarEnabled(true);
+        webView.setVerticalScrollBarEnabled(true);
         return v;
     }
 
@@ -80,16 +82,16 @@ public class InstructionsFragment extends Fragment {
         }
     }
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
-    }
+//    @Override
+//    public void onAttach(Context context) {
+//        super.onAttach(context);
+//        if (context instanceof OnFragmentInteractionListener) {
+//            mListener = (OnFragmentInteractionListener) context;
+//        } else {
+//            throw new RuntimeException(context.toString()
+//                    + " must implement OnFragmentInteractionListener");
+//        }
+//    }
 
     @Override
     public void onDetach() {
