@@ -1,4 +1,4 @@
-package com.rtayal.traffickingpolice;
+package com.rtayal.traffickingpolice.report_list;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rtayal.traffickingpolice.ItemFragment.OnListFragmentInteractionListener;
+import com.rtayal.traffickingpolice.R;
+import com.rtayal.traffickingpolice.report_list.ItemFragment.OnListFragmentInteractionListener;
 import com.rtayal.traffickingpolice.dummy.DummyContent.DummyItem;
 
 import java.util.List;

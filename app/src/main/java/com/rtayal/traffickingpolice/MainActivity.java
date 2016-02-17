@@ -20,6 +20,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
+import com.rtayal.traffickingpolice.report_list.ItemFragment;
 
 import io.fabric.sdk.android.Fabric;
 
